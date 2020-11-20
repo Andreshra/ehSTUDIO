@@ -187,3 +187,9 @@ ul.social-network li {
   -o-transition: all 0.8s;
   -ms-transition: all 0.8s;
   transition: all 0.8s; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 575.98px) {
+  .imgServi {
+    width: 100px;
+    height: 100px; } }
