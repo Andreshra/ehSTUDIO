@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita:ital@1&display=swap');
+$fontRobo: 'Roboto', sans-serif;
+$fontSansi: 'Sansita', sans-serif;
+
+$tamañoText: 35px;

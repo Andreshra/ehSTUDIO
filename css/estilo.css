@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita:ital@1&display=swap");
+body {
+  background-color: #F3E4FF; }
+
+/*  ANIMACIONES (DURACION) */
+#logoWa {
+  color: red; }
+
+.animate__zoomIn {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation-duration: 2s; }
+
+.animatedLorem {
+  margin: 0 0.5rem;
+  animation-duration: 4s; }
+
+header {
+  background-color: #c173ff;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 40px; }
+
+.BlHea--img {
+  padding-bottom: 10px; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #DFBDF4; }
+
+.BlMain--img {
+  margin-top: 80px;
+  margin-bottom: 120px;
+  padding: 10px; }
+
+.noPadding {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+h1, .BlMain--Titles {
+  text-transform: uppercase;
+  margin: 80px 50px;
+  font-size: 30px;
+  color: #6B6B6B;
+  font-weight: bold; }
+
+.Bl__parag, .Bl__parag--Sect {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #6B6B6B;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify !important; }
+
+/* ACA EXTEND + Operaciones */
+.Bl__parag--Sect {
+  font-size: 25px;
+  margin-bottom: 100px; }
+
+/* MIXIN + OPERACIONES */
+#BlMain--Ref {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #6B6B6B;
+  text-align: justify;
+  font-size: 25px;
+  margin: 0px 20px;
+  background-color: #EDD8F8; }
+
+/* MIXIN + OPERACIONES */
+.__PersonasRef {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #6B6B6B;
+  text-align: justify;
+  font-size: 18px;
+  text-align: right;
+  font-family: "Sansita", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px 20px; }
+
+/* BOTON HACIA ARRIBA */
+#arrow {
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  border: 2px hidden;
+  width: 60px; }
+
+#arrow:hover {
+  background-color: #CC6AF0;
+  width: 65px; }
+
+/*FORMULARIO */
+form {
+  font-family: "Roboto", sans-serif;
+  color: #6B6B6B;
+  font-size: 25px; }
+
+/* BTN IMPUT  FORM*/
+.btn-primary {
+  position: relative;
+  left: 20px;
+  color: #fff;
+  background-color: #CC6AF0;
+  border-color: #CC6AF0; }
+
+.btn-primary:hover {
+  border-color: #CC6AF0; }
+
+/* SERVICIOS*/
+/*.imgServi:hover {
+	backface-visibility: hidden;
+    transform: scale(1.75, 1.75);
+        
+        }*/
+.flexServi {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*	FOOTER FROM EXTERNAL WEB*/
+footer {
+  color: #fff;
+  background-image: linear-gradient(to left, #6AC1F0, #CC6AF0);
+  margin-top: 100px; }
+
+h2 {
+  font-size: 27px; }
+
+footer a {
+  color: #fff;
+  font-size: 14px; }
+
+.footer-middle {
+  padding-top: 2em;
+  color: white; }
+
+#copyright {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+  color: white; }
+
+/*SOCİAL İCONS*/
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px; }
+
+/* footer social icons */
+.social-circle li img {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  font-size: 15px; }
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center; }
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s; }
