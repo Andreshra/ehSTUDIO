@@ -5,13 +5,13 @@
 body {
 	background-color: $colorBg;
 }
-									/*  ANIMACIONES (DURACION) */
+								/*  ANIMACIONES (DURACION) */
 
 #logoWa {
 	color: red;
 }
 
-.animate__zoomIn {
+.animate__fadeIn {
   display: inline-block;
   margin: 0 0.5rem;
   animation-duration: 2s;	
@@ -19,7 +19,7 @@ body {
 
 
 .animatedLorem {
-	margin: 0 0.5rem;
+	margin-top: 100px;
 	animation-duration: 4s;
 }
 
@@ -29,7 +29,6 @@ header {
 	font-family: $fontRobo;
 	text-transform: uppercase;
 	font-size: 20px;
-	padding-bottom: 40px;
 }
 
 .BlHea--img{
@@ -46,9 +45,12 @@ a:hover {
 	}
 
 .BlMain--img {
-	margin-top: 80px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-bottom: 120px;
-	padding: 10px;
+	height: 67.5vh;
+    width: 220vh;;
 }
 
 .noPadding {
@@ -79,7 +81,7 @@ h1, .BlMain--Titles {
 
 .Bl__parag--Sect {
 	@extend .Bl__parag;
-	font-size: $tamañoText - 10px;
+	font-size: $tamañoText - 5px;
 	margin-bottom: 100px;
 }
 
@@ -95,8 +97,7 @@ h1, .BlMain--Titles {
 #BlMain--Ref {
 	@include texto1;
 	font-size: $tamañoText - 10px;
-	margin: 0px 20px;
-	background-color: #EDD8F8;
+	margin: 60px 40px;
 	
 }
 
@@ -104,7 +105,7 @@ h1, .BlMain--Titles {
 
 .__PersonasRef {
 	@include texto1; 
-	font-size: $tamañoText - 17px;
+	font-size: $tamañoText - 12px;
 	text-align: right; 
 	font-family: $fontSansi;
 	font-style: italic;
@@ -293,3 +294,49 @@ ul.social-network li {
 }
 
 	}
+
+											/*CARUSEL*/
+
+.col-md-3{ 
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-3 img{
+  width:100%;
+  height:auto;
+}
+body .carousel-indicators li{
+  background-color:r #CC6AF0;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color: #CC6AF0;
+}
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*BANER2*/
+
+.banner2 {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	height: 500px
+}
+
+										/*4 IMG EN LINEA*/
+
+
+
+#imgBrows {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.imgX4 {
+	width: 275px;
+	padding: 10px;
+	margin: 20px 25px;
+}

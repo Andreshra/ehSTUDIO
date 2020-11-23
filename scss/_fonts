@@ -2,4 +2,4 @@
 $fontRobo: 'Roboto', sans-serif;
 $fontSansi: 'Sansita', sans-serif;
 
-$tamañoText: 35px;
+$tamañoText: 30px;
