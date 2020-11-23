@@ -7,10 +7,6 @@ body {
 }
 								/*  ANIMACIONES (DURACION) */
 
-#logoWa {
-	color: red;
-}
-
 .animate__fadeIn {
   display: inline-block;
   margin: 0 0.5rem;
@@ -297,26 +293,6 @@ ul.social-network li {
 
 											/*CARUSEL*/
 
-.col-md-3{ 
-  display: inline-block;
-  margin-left:-4px;
-}
-.col-md-3 img{
-  width:100%;
-  height:auto;
-}
-body .carousel-indicators li{
-  background-color:r #CC6AF0;
-}
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon{
-  background-color: #CC6AF0;
-}
-body .no-padding{
-  padding-left: 0;
-  padding-right: 0;
-}
-
 /*BANER2*/
 
 .banner2 {
@@ -335,7 +311,7 @@ body .no-padding{
 	
 }
 
-.imgX4 {
+.imgx4 {
 	width: 275px;
 	padding: 10px;
 	margin: 20px 25px;
