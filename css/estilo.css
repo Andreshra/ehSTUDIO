@@ -299,17 +299,3 @@ ul.social-network li {
   width: 275px;
   padding: 10px;
   margin: 20px 14px; }
-
-/* Boton de citas*/
-.btn-primary2:hover {
-  background-color: #D86FFF;
-  color: #fff; }
-
-.btn-primary2 {
-  position: relative;
-  bottom: 450px;
-  left: 440px;
-  color: #CC6AF0;
-  background-color: transparent;
-  background-image: none;
-  border-color: #CC6AF0; }
