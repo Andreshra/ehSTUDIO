@@ -41,12 +41,7 @@ a:hover {
 	}
 
 .BlMain--img {
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 120px;
-	height: 67.5vh;
-    width: 220vh;;
+  margin-bottom: 120px;
 }
 
 .noPadding {
@@ -73,7 +68,7 @@ h1, .BlMain--Titles {
 	text-align: justify !important;
 }
 
-										/* ACA EXTEND + Operaciones */
+								/* ACA EXTEND + Operaciones */
 
 .Bl__parag--Sect {
 	@extend .Bl__parag;
@@ -81,7 +76,7 @@ h1, .BlMain--Titles {
 	margin-bottom: 100px;
 }
 
-										/* MIXIN + OPERACIONES */
+								/* MIXIN + OPERACIONES */
 
 @mixin texto1 {
 	font-size: $tamañoText;
@@ -97,7 +92,7 @@ h1, .BlMain--Titles {
 	
 }
 
-										/* MIXIN + OPERACIONES */
+								/* MIXIN + OPERACIONES */
 
 .__PersonasRef {
 	@include texto1; 
@@ -109,7 +104,7 @@ h1, .BlMain--Titles {
 	margin: 0px 20px;
 }
 
-/* BOTON HACIA ARRIBA */
+								/* BOTON HACIA ARRIBA */
 
 #arrow {
 	 position: fixed;
@@ -123,7 +118,7 @@ h1, .BlMain--Titles {
  	background-color: #CC6AF0;
  	width: 65px;
  }
-/*FORMULARIO */
+								/*FORMULARIO */
 
 form {
 	font-family: $fontRobo;
@@ -145,7 +140,7 @@ form {
     	border-color: #CC6AF0;
     }
 
-/* SERVICIOS*/
+								/* SERVICIOS*/
 
 
 .card {
@@ -229,7 +224,7 @@ form {
 	align-items: center;
 }
 
-/*	FOOTER FROM EXTERNAL WEB*/
+								/*	FOOTER FROM EXTERNAL WEB*/
 
 footer {
 	color: #fff;
@@ -361,6 +356,17 @@ ul.social-network li {
 
 	}
 
+								/*IMAGENES EN LINEA */
+
+@media (min-width: 768px) {
+.imgInLine .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.imgInLine .card img {
+border-radius: 2px; }
+
 								/*BANER CON DOS IMAGENES*/
 
 .banner2 {
@@ -370,7 +376,7 @@ ul.social-network li {
     width: 100%;
 }
 
-										/*4 IMG EN LINEA*/
+								/*4 IMG EN LINEA*/
 
 
 
@@ -383,5 +389,7 @@ ul.social-network li {
 .imgx {
 	width: 275px;
 	padding: 10px;
-	margin: 20px 25px;
+	margin: 20px 14px;
 }
+
+								/* CARUSEL PARA VISTAS PEQUEÑAS*/
