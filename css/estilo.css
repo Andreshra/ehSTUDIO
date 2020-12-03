@@ -312,7 +312,7 @@ h1, .BlMain--Titles {
   font-size: 18px;
   color: #6B6B6B;
   font-weight: bold;
-  text-align: center; }
+  text-align: justify; }
 
 /*Texto general */
 .Bl__parag, .Bl__parag--Sect {
