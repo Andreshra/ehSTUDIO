@@ -94,7 +94,8 @@ h1, .BlMain--Titles {
   bottom: 5px;
   right: 0px;
   border: 2px hidden;
-  width: 60px; }
+  width: 60px;
+  z-index: 1111; }
 
 #arrow:hover {
   background-color: #CC6AF0;
