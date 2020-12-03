@@ -322,53 +322,6 @@ ul.social-network li {
 }
 
 
-/*MEDIA QUERIES*/
-
-@media (max-width: 575.98px) { 
-	.imgServi{
-		width: 350px;
-		height: 280px;
-		}
-
-	/*Servicios*/	h1, .BlMain--Titles {
-	text-transform: uppercase;
-	margin: 40px 25px;
-	font-size:15px;
-	color: $colorText;
-	font-weight: bold; 
-}
-/*Texto general */.Bl__parag {
-	font-size: $tamañoText;
-	font-family: $fontRobo;
-	color: $colorText;
-	margin-top: 50px;
-	margin-bottom: 100px;
-	margin-left: 25px;
-	margin-right:25px;
-	text-align: justify !important;
-}
-.Bl__parag--Sect {
-	font-size: $tamañoText - 20px;
-	margin-bottom: 50px;
-}
-#BlMain--Ref {
-	@include texto1;
-	font-size: $tamañoText - 20px;
-	margin: 0px 20px;
-	background-color: #EDD8F8;
-	
-}
-.__PersonasRef {
-	@include texto1; 
-	font-size: $tamañoText - 20px;
-	text-align: right; 
-	font-family: $fontSansi;
-	font-style: italic;
-	font-weight: bold;
-	margin: 0px 20px;
-}
-	}
-
 								/*IMAGENES EN LINEA */
 
 @media (min-width: 768px) {
@@ -451,7 +404,55 @@ border-radius: 2px; }
 }
 	} /* TERMINA BOTON DE CITAS SMALL*/
 
-@media (min-width: 576px) { 
+	.imgServi{
+	width: 350px;
+	height: 280px;
+		}
+
+	/*Servicios*/	h1, .BlMain--Titles {
+	text-transform: uppercase;
+	margin: 40px 25px;
+	font-size:18px;
+	color: $colorText;
+	font-weight: bold; 
+}
+/*Texto general */.Bl__parag {
+	font-size: $tamañoText - 15px;
+	font-family: $fontRobo;
+	color: $colorText;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	margin-right:25px;
+	text-align: justify !important;
+}
+.Bl__parag--Sect {
+	font-size: $tamañoText - 20px;
+	margin-bottom: 50px;
+}
+#BlMain--Ref {
+	@include texto1;
+	font-size: $tamañoText - 20px;
+	margin: 0px 20px;
+	background-color: #EDD8F8;
+	
+}
+.__PersonasRef {
+	@include texto1; 
+	font-size: $tamañoText - 20px;
+	text-align: right; 
+	font-family: $fontSansi;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0px 20px;
+}
+
+/*TEXTO NAV*/ 
+nav a {
+	font-size: 18px;
+}
+
+@media (min-width: 576px) /*SMALL*/ { 
 
 /*LOGO*/
 	.logoImg {
@@ -478,7 +479,7 @@ border-radius: 2px; }
 	} /* TERMINA BOTON DE CITAS SMALL*/
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) /*MEDIUM*/ { 
 /*LOGO*/
 	.logoImg {
 		width: 350px;
@@ -523,7 +524,7 @@ max-width: 100%; }
 	}
 
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) /*LARGE*/ { 
 /*BOTON DE CITAS*/
 	.btn-primary2:hover {
 	background-color: #D86FFF;
@@ -549,7 +550,7 @@ max-width: 100%; }
 }
 	}
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) /*EXTRA LARGE*/ { 
 
 .btn-primary2:hover {
 	background-color: #D86FFF;
