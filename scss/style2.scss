@@ -212,10 +212,11 @@ form {
     transform: translateX(-50%);
     
     @media (max-width: 1140px) {
-          margin: 0;
-    transform: none;
+ 
+    margin: 0;
+    transform: translateY(25px);
     width: 100%;
-    height: auto;
+    height: 130px;	
     }
     
   }
@@ -321,6 +322,60 @@ ul.social-network li {
   transition: all 0.8s;
 }
 
+/*MEDIA QUERIES*/
+
+@media (max-width: 575.98px) { 
+	.imgServi{
+		width: 350px;
+		height: 280px;
+		}
+
+	/*Servicios*/	h1, .BlMain--Titles {
+	text-transform: uppercase;
+	margin: 40px 25px;
+	font-size:15px;
+	color: $colorText;
+	font-weight: bold; 
+}
+/*Texto general */.Bl__parag {
+	font-size: $tamañoText;
+	font-family: $fontRobo;
+	color: $colorText;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	margin-right:25px;
+	text-align: justify !important;
+}
+.Bl__parag--Sect {
+	font-size: $tamañoText - 20px;
+	margin-bottom: 50px;
+}
+#BlMain--Ref {
+	@include texto1;
+	font-size: $tamañoText - 20px;
+	margin: 0px 20px;
+	background-color: #EDD8F8;
+	
+}
+.__PersonasRef {
+	@include texto1; 
+	font-size: $tamañoText - 20px;
+	text-align: right; 
+	font-family: $fontSansi;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0px 20px;
+}
+
+/*Texto footer */
+
+h2 {
+	font-size: 15px;
+}
+
+	}
+
 
 								/*IMAGENES EN LINEA */
 
@@ -409,44 +464,6 @@ border-radius: 2px; }
 	height: 280px;
 		}
 
-	/*Servicios*/	h1, .BlMain--Titles {
-	text-transform: uppercase;
-	margin: 40px 25px;
-	font-size:18px;
-	color: $colorText;
-	font-weight: bold; 
-	text-align: justify;
-}
-/*Texto general */.Bl__parag {
-	font-size: $tamañoText - 15px;
-	font-family: $fontRobo;
-	color: $colorText;
-	margin-top: 50px;
-	margin-bottom: 100px;
-	margin-left: 25px;
-	margin-right:25px;
-	text-align: justify !important;
-}
-.Bl__parag--Sect {
-	font-size: $tamañoText - 20px;
-	margin-bottom: 50px;
-}
-#BlMain--Ref {
-	@include texto1;
-	font-size: $tamañoText - 20px;
-	margin: 0px 20px;
-	background-color: #EDD8F8;
-	
-}
-.__PersonasRef {
-	@include texto1; 
-	font-size: $tamañoText - 20px;
-	text-align: right; 
-	font-family: $fontSansi;
-	font-style: italic;
-	font-weight: bold;
-	margin: 0px 20px;
-}
 
 /*TEXTO NAV*/ 
 nav a {

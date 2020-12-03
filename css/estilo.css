@@ -162,9 +162,9 @@ form {
     @media (max-width: 1140px) {
       .vgr-cards .card-img {
         margin: 0;
-        transform: none;
+        transform: translateY(25px);
         width: 100%;
-        height: auto; } }
+        height: 130px; } }
   .vgr-cards .card-body {
     flex: 2;
     padding: 0 0 0 1.25rem; }
@@ -238,6 +238,54 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s; }
 
+/*MEDIA QUERIES*/
+@media (max-width: 575.98px) {
+  .imgServi {
+    width: 350px;
+    height: 280px; }
+  /*Servicios*/
+  h1, .BlMain--Titles {
+    text-transform: uppercase;
+    margin: 40px 25px;
+    font-size: 15px;
+    color: #6B6B6B;
+    font-weight: bold; }
+  /*Texto general */
+  .Bl__parag, .Bl__parag--Sect {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #6B6B6B;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify !important; }
+  .Bl__parag--Sect {
+    font-size: 10px;
+    margin-bottom: 50px; }
+  #BlMain--Ref {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #6B6B6B;
+    text-align: justify;
+    font-size: 10px;
+    margin: 0px 20px;
+    background-color: #EDD8F8; }
+  .__PersonasRef {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #6B6B6B;
+    text-align: justify;
+    font-size: 10px;
+    text-align: right;
+    font-family: "Sansita", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px 20px; }
+  /*Texto footer */
+  h2 {
+    font-size: 15px; } }
+
 /*IMAGENES EN LINEA */
 @media (min-width: 768px) {
   .imgInLine .col-md-3 {
@@ -304,51 +352,6 @@ ul.social-network li {
 .imgServi {
   width: 350px;
   height: 280px; }
-
-/*Servicios*/
-h1, .BlMain--Titles {
-  text-transform: uppercase;
-  margin: 40px 25px;
-  font-size: 18px;
-  color: #6B6B6B;
-  font-weight: bold;
-  text-align: justify; }
-
-/*Texto general */
-.Bl__parag, .Bl__parag--Sect {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: #6B6B6B;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  margin-left: 25px;
-  margin-right: 25px;
-  text-align: justify !important; }
-
-.Bl__parag--Sect {
-  font-size: 10px;
-  margin-bottom: 50px; }
-
-#BlMain--Ref {
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  color: #6B6B6B;
-  text-align: justify;
-  font-size: 10px;
-  margin: 0px 20px;
-  background-color: #EDD8F8; }
-
-.__PersonasRef {
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  color: #6B6B6B;
-  text-align: justify;
-  font-size: 10px;
-  text-align: right;
-  font-family: "Sansita", sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  margin: 0px 20px; }
 
 /*TEXTO NAV*/
 nav a {
