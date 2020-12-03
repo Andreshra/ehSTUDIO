@@ -13,6 +13,10 @@ body {
   margin-top: 100px;
   animation-duration: 4s; }
 
+.animate__pulse {
+  animation-duration: 4s; }
+
+/* TERMINA ANIMACIONES (DURACION) */
 header {
   background-color: #CC6AF0;
   color: #fff;
@@ -21,7 +25,11 @@ header {
   font-size: 20px; }
 
 .BlHea--img {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  width: 400px; }
+
+.logoImg {
+  width: 400px; }
 
 a {
   color: #fff; }
@@ -299,3 +307,103 @@ ul.social-network li {
   width: 275px;
   padding: 10px;
   margin: 20px 14px; }
+
+/* Boton de citas*/
+.btn-primary2:hover {
+  background-color: #D86FFF;
+  color: #fff; }
+
+.btn-primary2 {
+  position: relative;
+  bottom: 450px;
+  left: 440px;
+  color: #CC6AF0;
+  background-color: transparent;
+  background-image: none;
+  border-color: #CC6AF0; }
+
+/*MediasQ*/
+@media (min-width: 576px) {
+  /*LOGO*/
+  .logoImg {
+    width: 300px; }
+  /*BOTON DE CITAS*/
+  .btn-primary2:hover {
+    background-color: #D86FFF;
+    color: #fff; }
+  .btn-primary2 {
+    font-size: 10px;
+    position: relative;
+    bottom: 435px;
+    left: 140px;
+    color: #CC6AF0;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CC6AF0; } }
+
+/* TERMINA BOTON DE CITAS SMALL*/
+@media (min-width: 768px) {
+  /*LOGO*/
+  .logoImg {
+    width: 350px; }
+  /*BOTON DE CITAS*/
+  .btn-primary2:hover {
+    background-color: #D86FFF;
+    color: #fff; }
+  .btn-primary2 {
+    font-size: 12px;
+    position: relative;
+    bottom: 440px;
+    left: 210px;
+    color: #CC6AF0;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CC6AF0; }
+  /* TERMINA BOTON DE CITAS MEDIUM*/
+  /*IMG EN LINEA*/
+  .imgInLine .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; }
+  /*MARGIN DE IMG */
+  .imgx {
+    width: 275px;
+    padding: 10px;
+    margin: 20px 7px; }
+  /* LOGO */
+  .BlHea--img {
+    padding-bottom: 10px;
+    width: 500px; } }
+
+@media (min-width: 992px) {
+  /*BOTON DE CITAS*/
+  .btn-primary2:hover {
+    background-color: #D86FFF;
+    color: #fff; }
+  .btn-primary2 {
+    position: relative;
+    bottom: 445px;
+    left: 300px;
+    color: #CC6AF0;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CC6AF0; }
+  /* TERMINA BOTON DE CITAS LARGE*/
+  /*MARGIN DE IMG */
+  .imgx {
+    width: 275px;
+    padding: 10px;
+    margin: 20px 7px; } }
+
+@media (min-width: 1200px) {
+  .btn-primary2:hover {
+    background-color: #D86FFF;
+    color: #fff; }
+  .btn-primary2 {
+    position: relative;
+    bottom: 450px;
+    left: 440px;
+    color: #CC6AF0;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CC6AF0; } }
