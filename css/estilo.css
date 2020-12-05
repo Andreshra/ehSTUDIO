@@ -53,19 +53,21 @@ h1, .BlMain--Titles {
   font-weight: bold; }
 
 .Bl__parag, .Bl__parag--Sect {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Roboto", sans-serif;
   color: #6B6B6B;
   margin-top: 100px;
   margin-bottom: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: justify !important; }
 
 /* ACA EXTEND + Operaciones */
 .Bl__parag--Sect {
   font-size: 25px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px; }
 
 /* MIXIN + OPERACIONES */
 #BlMain--Ref {
@@ -120,6 +122,17 @@ form {
   border-color: #CC6AF0;
   background-color: #D86FFF; }
 
+/* Avatar Aboutme*/
+.avatarAbout {
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  /*margin-left: 65px;*/ }
+
+.Bl__About {
+  margin: 180px 100px; }
+
 /* SERVICIOS*/
 .card {
   border: none; }
@@ -164,7 +177,7 @@ form {
         margin: 0;
         transform: translateY(25px);
         width: 100%;
-        height: 130px; } }
+        height: 135px; } }
   .vgr-cards .card-body {
     flex: 2;
     padding: 0 0 0 1.25rem; }
@@ -442,3 +455,106 @@ nav a {
     background-color: transparent;
     background-image: none;
     border-color: #CC6AF0; } }
+
+/* Cards Referencias */
+.card {
+  margin: 0 auto;
+  border: none; }
+
+.card .carousel-item {
+  min-height: 190px; }
+
+.card .carousel-caption {
+  padding: 0;
+  right: 15px;
+  left: 15px;
+  top: 15px;
+  color: #3d3d3d;
+  border: 1px solid #ccc;
+  min-height: 175px;
+  padding: 15px; }
+
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center; }
+
+.card .carousel-caption .col-sm-9 {
+  text-align: left; }
+
+.card .carousel-control-prev, .card .carousel-control-next {
+  color: #3d3d3d !important;
+  opacity: 1 !important; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+  color: #fff;
+  font-size: 14px;
+  background-color: #cd3a54;
+  height: 32px;
+  line-height: 32px;
+  width: 32px; }
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  opacity: 0.85; }
+
+.carousel-control-prev {
+  left: 40%;
+  top: 110%; }
+
+.carousel-control-next {
+  right: 40%;
+  top: 110%; }
+
+.midline {
+  width: 60px;
+  border-top: 1px solid #d43025; }
+
+.carousel-caption h2 {
+  font-size: 14px; }
+
+.carousel-caption h2 span {
+  color: #cd3a54; }
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .carousel-caption {
+    position: relative; }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px; }
+  .card .carousel-caption img {
+    margin: 0 auto; }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%; }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%; }
+  .card .carousel-caption h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-caption {
+    position: relative; }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px; }
+  .card .carousel-caption img {
+    margin: 0 auto; }
+  .card .carousel-caption h3, .card .carousel-caption small {
+    text-align: center; }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%; }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%; } }
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .card .carousel-caption h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700; } }
