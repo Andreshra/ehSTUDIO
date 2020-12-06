@@ -26,7 +26,8 @@ body {
 								/* TERMINA ANIMACIONES (DURACION) */
 
 header {
-	background-color: $colorHeader;
+	background-color: #ff8a00;
+	background-image: radial-gradient(#6AC1F0, #CC6AF0);
 	color: #fff;
 	font-family: $fontRobo;
 	text-transform: uppercase;
@@ -611,6 +612,7 @@ max-width: 100%; }
 	.card {
 	margin: 0 auto;
 	border: none;
+	background-color: #FCF7FF;
 }
 .card .carousel-item {
 	min-height: 190px;
@@ -621,7 +623,7 @@ max-width: 100%; }
 	left: 15px;
 	top: 15px;
 	color: #3d3d3d;
-	border: 1px solid #ccc;
+	border: 1px solid #CC6AF0;
 	min-height:175px;
 	padding: 15px;
 }
@@ -640,7 +642,7 @@ max-width: 100%; }
 	background-image: none;
 	color: #fff;
 	font-size: 14px;
-	background-color: #cd3a54;
+	background-color: #CC6AF0;
 	height: 32px;
 	line-height: 32px;
 	width: 32px;
@@ -658,15 +660,23 @@ max-width: 100%; }
 }
 .midline {
 	width: 60px;
-	border-top: 1px solid #d43025;
+	border-top: 1px solid #CC6AF0;
 }
 .carousel-caption h2 {
 	font-size: 14px;
+	color: $colorText;
+	font-weight: bold;
 }
 .carousel-caption h2 span {
 	color: #cd3a54;
 }
+
+small {
+	color: $colorText;
+}
+
  @media (min-width: 320px) and (max-width: 575px) {
+
 .carousel-caption {
 	position: relative;
 }
