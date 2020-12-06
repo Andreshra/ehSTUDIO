@@ -26,8 +26,7 @@ body {
 								/* TERMINA ANIMACIONES (DURACION) */
 
 header {
-	background-color: #ff8a00;
-	background-image: radial-gradient(#6AC1F0, #CC6AF0);
+	background-color: #CC6AF0;
 	color: #fff;
 	font-family: $fontRobo;
 	text-transform: uppercase;
@@ -156,19 +155,6 @@ form {
     	border-color: #CC6AF0;
     	background-color: #D86FFF;
     }
-
- 								/* Avatar Aboutme*/
-
-.avatarAbout {
-	display: inline-block;
-	position: relative;
-	bottom: 50px;
-	left: 50px;
-	/*margin-left: 65px;*/
-
-	
-
-}
 
 .Bl__About {
 	margin: 180px 100px;
@@ -358,7 +344,7 @@ ul.social-network li {
 	font-weight: bold; 
 }
 /*Texto general */.Bl__parag {
-	font-size: $tamañoText;
+	font-size: $tamañoText - 18px;
 	font-family: $fontRobo;
 	color: $colorText;
 	margin-top: 50px;
@@ -476,9 +462,14 @@ border-radius: 2px; }
     background-image: none;
     border-color: $colorHeader;
     z-index: 1111;
-}
-	} /* TERMINA BOTON DE CITAS SMALL*/
+} /* TERMINA BOTON DE CITAS SMALL*/
 
+
+.Bl__About {
+    margin: 150px 50px;
+}
+
+	} 
 	.imgServi{
 	width: 350px;
 	height: 280px;
@@ -513,9 +504,18 @@ nav a {
     background-image: none;
     border-color: $colorHeader;
     z-index: 1111;
-}
-	} /* TERMINA BOTON DE CITAS SMALL*/
+}/* TERMINA BOTON DE CITAS SMALL*/
 
+
+.Bl__About {
+    margin: 150px 50px;
+}
+
+.avatarAbout {
+    position: relative;
+    display: block;
+}
+	} 
 
 @media (min-width: 768px) /*MEDIUM*/ { 
 /*LOGO*/
@@ -559,6 +559,7 @@ max-width: 100%; }
 	padding-bottom: 10px;
 	width: 500px;
 }
+
 	}
 
 
@@ -586,6 +587,7 @@ max-width: 100%; }
     margin: 20px 7px;
 
 }
+
 	}
 
 @media (min-width: 1200px) /*EXTRA LARGE*/ { 
@@ -604,6 +606,7 @@ max-width: 100%; }
     background-image: none;
     border-color: $colorHeader;
 }
+
 	}
 
 
@@ -733,3 +736,26 @@ small {
 	font-weight: 700;
 }
 }
+
+ 								/* Avatar Aboutme*/
+
+.avatarAbout {
+	display: inline-block;
+	position: relative;
+	bottom: 50px;
+	left: 50px; 
+	border: 3px solid #CC6AF0;
+ 	border-radius: 50%;
+}
+
+ @media (min-width: 320px) and (max-width: 575px) { 
+
+.avatarAbout {
+    display: inline-block;
+    position: relative;
+    bottom:0px;
+    left: 10px;
+    margin-bottom: 20px;
+}
+
+ }
