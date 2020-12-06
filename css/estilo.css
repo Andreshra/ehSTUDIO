@@ -578,5 +578,7 @@ small {
     display: inline-block;
     position: relative;
     bottom: 0px;
-    left: 10px;
-    margin-bottom: 20px; } }
+    left: 0px;
+    margin-bottom: 20px; }
+  .Bl__About {
+    margin: 80px 50px; } }
