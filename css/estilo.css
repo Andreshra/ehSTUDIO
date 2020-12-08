@@ -362,7 +362,9 @@ ul.social-network li {
     z-index: 1111; }
   /* TERMINA BOTON DE CITAS SMALL*/
   .Bl__About {
-    margin: 150px 50px; } }
+    margin: 150px 50px; }
+  .wow {
+    animation: none; } }
 
 .imgServi {
   width: 350px;
@@ -395,7 +397,9 @@ nav a {
     margin: 150px 50px; }
   .avatarAbout {
     position: relative;
-    display: block; } }
+    display: block; }
+  .wow {
+    animation: none; } }
 
 @media (min-width: 768px) {
   /*LOGO*/
