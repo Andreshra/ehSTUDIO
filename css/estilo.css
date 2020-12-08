@@ -123,7 +123,8 @@ form {
   background-color: #D86FFF; }
 
 .Bl__About {
-  margin: 180px 100px; }
+  margin: 180px 100px;
+  text-align: justify; }
 
 /* SERVICIOS*/
 .card {
@@ -581,4 +582,5 @@ small {
     left: 0px;
     margin-bottom: 20px; }
   .Bl__About {
-    margin: 80px 50px; } }
+    margin: 80px 50px;
+    text-align: justify; } }
