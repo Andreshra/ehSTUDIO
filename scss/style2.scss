@@ -380,7 +380,7 @@ ul.social-network li {
 h2 {
 	font-size: 15px;
 }
-
+	
 	}
 
 
@@ -402,6 +402,15 @@ border-radius: 2px; }
 	margin-bottom: 150px;
 	height: 370px;
     width: 100%;
+}
+
+@media (max-width: 575.98px) {  
+.banner2 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: 300px;
+    width: 100%;
+    }
 }
 
 								/*4 IMG EN LINEA*/
@@ -456,7 +465,7 @@ border-radius: 2px; }
 	.btn-primary2 {
 	font-size: 10px;
 	position: relative;
-    bottom: 435px;
+    bottom: 390px;
     left: 60px;
     color: $colorHeader;
     background-color: transparent;
