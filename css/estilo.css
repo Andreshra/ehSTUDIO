@@ -364,7 +364,8 @@ ul.social-network li {
   .Bl__About {
     margin: 150px 50px; }
   .wow {
-    animation: none; } }
+    animation-name: none !important;
+    visibility: visible !important; } }
 
 .imgServi {
   width: 350px;
@@ -399,7 +400,8 @@ nav a {
     position: relative;
     display: block; }
   .wow {
-    animation: none; } }
+    animation-name: none !important;
+    visibility: visible !important; } }
 
 @media (min-width: 768px) {
   /*LOGO*/
