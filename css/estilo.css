@@ -44,7 +44,7 @@ a:hover {
   font-size: 40px;
   font-weight: 100; }
 
-m .BlMain--img {
+.BlMain--img {
   margin-bottom: 40px; }
 
 .noPadding {
@@ -296,7 +296,12 @@ ul.social-network li {
     margin: 0px 20px; }
   /*Texto footer */
   h2 {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .slogan {
+    font-family: 'Roboto', sans-serif;
+    color: #CC6AF0;
+    font-size: 18px;
+    font-weight: 100; } }
 
 /*IMAGENES EN LINEA */
 @media (min-width: 768px) {

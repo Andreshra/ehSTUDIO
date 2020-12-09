@@ -59,11 +59,6 @@ a:hover {
 	font-weight: 100;
 }
 
-@media (max-width: 575.98px) {
-	.slogan {
-	font-size: 18px;
-}
-	}
 
 .BlMain--img {
   margin-bottom: 40px;
@@ -344,7 +339,7 @@ ul.social-network li {
 
 /*MEDIA QUERIES*/
 
- { 
+@media (max-width: 575.98px) { 
 	.imgServi{
 		width: 350px;
 		height: 280px;
@@ -392,6 +387,13 @@ ul.social-network li {
 
 h2 {
 	font-size: 15px;
+}
+
+.slogan {
+	font-family: 'Roboto', sans-serif;
+	color: #CC6AF0;
+	font-size: 18px;
+	font-weight: 100;
 }
 	
 	}
