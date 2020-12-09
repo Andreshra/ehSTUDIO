@@ -791,3 +791,10 @@ small {
 	}
  }
 
+ @media screen and (max-width: 800px) {
+    .wow{
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+}
+
