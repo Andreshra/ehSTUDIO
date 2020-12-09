@@ -38,8 +38,14 @@ a {
 a:hover {
   color: #DFBDF4; }
 
+.slogan {
+  font-family: 'Roboto', sans-serif;
+  color: #CC6AF0;
+  font-size: 40px;
+  font-weight: 100; }
+
 .BlMain--img {
-  margin-bottom: 120px; }
+  margin-bottom: 40px; }
 
 .noPadding {
   padding-right: 0px;
@@ -362,10 +368,7 @@ ul.social-network li {
     z-index: 1111; }
   /* TERMINA BOTON DE CITAS SMALL*/
   .Bl__About {
-    margin: 150px 50px; }
-  .wow {
-    animation-name: none !important;
-    visibility: visible !important; } }
+    margin: 150px 50px; } }
 
 .imgServi {
   width: 350px;
@@ -398,10 +401,7 @@ nav a {
     margin: 150px 50px; }
   .avatarAbout {
     position: relative;
-    display: block; }
-  .wow {
-    animation-name: none !important;
-    visibility: visible !important; } }
+    display: block; } }
 
 @media (min-width: 768px) {
   /*LOGO*/

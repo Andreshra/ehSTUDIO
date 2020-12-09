@@ -52,8 +52,15 @@ a:hover {
 	color: #DFBDF4;
 	}
 
+.slogan {
+	font-family: 'Roboto', sans-serif;
+	color: #CC6AF0;
+	font-size: 40px;
+	font-weight: 100;
+}
+
 .BlMain--img {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 
 .noPadding {
@@ -479,10 +486,6 @@ border-radius: 2px; }
     margin: 150px 50px;
 }
 
-.wow {
-	animation-name: none !important; visibility: visible !important;
-}
-
 	} 
 	.imgServi{
 	width: 350px;
@@ -530,9 +533,6 @@ nav a {
     display: block;
 }
 
-.wow {
-	animation-name: none !important; visibility: visible !important;
-}
 	} 
 
 @media (min-width: 768px) /*MEDIUM*/ { 
@@ -781,3 +781,4 @@ small {
 		text-align: justify;
 	}
  }
+
