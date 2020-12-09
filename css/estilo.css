@@ -301,7 +301,8 @@ ul.social-network li {
     font-family: 'Roboto', sans-serif;
     color: #CC6AF0;
     font-size: 18px;
-    font-weight: 100; } }
+    font-weight: 100;
+    text-align: center; } }
 
 /*IMAGENES EN LINEA */
 @media (min-width: 768px) {
